@@ -11,7 +11,7 @@ spec:
         kind: HelmRepository
         name: github-actions
         namespace: flux-system
-      version: "0.27.5"
+      version: "0.23.5"
   interval: 10m0s
   install:
     remediation:
