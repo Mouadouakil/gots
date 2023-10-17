@@ -1,5 +1,5 @@
 build:
-	docker build --tag nabilblk/docker-actions-runner:latest .
+	docker build --tag <tag>/docker-actions-runner:latest .
 
 push: build
-	docker push nabilblk/docker-actions-runner
+	docker push <tag>/docker-actions-runner
