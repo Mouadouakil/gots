@@ -6,7 +6,7 @@ spec:
   releaseName: sops
   chart:
     spec:
-      chart: sops
+      chart: sops-secrets-operator
       sourceRef:
         kind: HelmRepository
         name: sops
