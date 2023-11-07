@@ -9,7 +9,7 @@ spec:
       chart: kubeapps
       sourceRef:
         kind: HelmRepository
-        name: bitnami
+        name: bitnami-kubeapps
         namespace: flux-system
       version: "14.0.2"
   interval: 10m0s

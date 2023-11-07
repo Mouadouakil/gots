@@ -9,7 +9,7 @@ spec:
       chart: keycloak
       sourceRef:
         kind: HelmRepository
-        name: bitnami
+        name: bitnami-keyclaok
         namespace: flux-system
       version: "16.1.5"
   interval: 10m0s
