@@ -6,7 +6,7 @@ spec:
   releaseName: nginx
   chart:
     spec:
-      chart: nginx
+      chart: ingress-nginx
       sourceRef:
         kind: HelmRepository
         name: nginx-helm
